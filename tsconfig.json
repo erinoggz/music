@@ -6,6 +6,7 @@
     "skipLibCheck": true,
     "esModuleInterop": true,
     "module": "commonjs",
+    "outDir": ".dist",
     "resolveJsonModule": true
   }
 }
