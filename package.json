@@ -6,7 +6,6 @@
   "scripts": {
     "dev": "nodemon server.ts",
     "build": "tsc",
-    "postbuild": "npm run copy",
     "start": "node .dist/server.js",
     "docker:build": "docker-compose build",
     "docker:bash": "docker-compose up"
